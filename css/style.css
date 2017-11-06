@@ -16,3 +16,10 @@ tei-orgName {
     color: black;
     font-style: italic;
 }
+
+tei-title {
+    color: blue;
+}
+tei-byline{
+    color:red;
+}
