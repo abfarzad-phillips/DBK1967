@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Negroes on white campus: Apprehension limits racial interaction</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+                <persName>Alyson Farzad-Phillips</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Primary Editor</resp>
+                <persName>Alyson Farzad-Phillips</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Original Header Creator</resp>
+                <persName>Jessica H. Lu</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by staff at</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti</persName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">Training edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="2">2 partial pages of original source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-13">November 13, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Freedom in UMD Student Newspaper Coverage of African American Life</title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#JLU">Jessica H. Lu</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">Negroes on white campus</title>
+                     <title type="sub">Apprehension limits racial interaction</title>
+                     <author>
+                         <persName xml:id="HG">Hollace Goldberg</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1967-01-09">January 9, 1967</date>
+                     </imprint>
+                     <biblScope unit="volume">59</biblScope>
+                     <biblScope unit="number">53</biblScope>
+                     <biblScope unit="page">1 and 9</biblScope>
+                 </monogr>
+             </biblStruct>
+             <bibl>Difference and Sameness
+               <InterpGrp>
+                 SOMETHING
+               </interGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors and structural formatting (including paragraphs, column breaks, line breaks, and page jumps) in the original source have been preserved.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been retained.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the 2017-2018 <orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+          <particDesc>
+            <listOrg>
+              <org>
+                <orgName xml:id="UMD">University of Maryland</orgName>
+                <placeName>
+                  <settlement>College Park</settlement>
+                  <region>Maryland</region>
+                  <country>United States of America</country>
+                </placeName>
+              </org>
+              </listOrg>
+            <listPerson>
+                <person>
+                  <persName>
+                    <forename>FIRST NAME</forename>
+                    <surname>LASTNAME</surname>
+                  </persName>
+                </person>
+            </listPerson>
+          </particDesc>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+        <div>
+          <head>
+          <title type="full">
+            <title type="main">Negroes on white campus</title>
+            <title type="sub">Apprehension limits racial interaction</title>
+          </title>
+        </head>
+      </div>
+      <div>
+            <byline>By HOLLACE GOLDBERG</byline>
+        </div>
+        <div>
+          <p>
+            <emph>Third in a series</emph>
+         </p>
+         <p>
+            What is it like to be a Negro<lb/>
+            student on a white campus? Each<lb/>
+            Negro student has his own <choice><orig>per-<lb/>
+            sonal</orig><reg>personal</reg></choice><lb/> opinion.<lb/></p>
+
+            <p>"There’s no difference,“ main<lb/>
+            tained one sophomore, “Negro is<lb/>
+            just a legal term the white man<lb/>
+            made up for convenience."<lb/> </p>
+
+            <p>“No, our culture is different,"<lb/>
+            projected a dark-skinned boy.<lb/>
+            "It’s composed of James Brown<lb/>
+            and the Supremes."<lb/></p>
+
+            <p>"They stare at me in class when<lb/>
+            we discuss slavery or Africa,"<lb/>
+            noted one young girl. “I guess<lb/>
+            it’s out of curiosity."<lb/></p>
+
+            <p>"People yell out of car windows<lb/>
+            at me," put in an adamant coed,<lb/>
+            cursing the University under her<lb/>
+            breath. This was Doris, a <choice><orig>dis-<lb/>
+            satisfied</orig><reg>dissatisfied</reg></choice><lb/> Negro, bitter towards<lb/>
+            her four years at the University.<lb/>
+            Doris sells Black power <choice><orig>but-<lb/>
+            tons</orig><reg>buttons</reg></choice><lb/>, “a quarter for Negroes, a<lb/>
+            dollar for whites."<lb/></p>
+
+            <p>"You can’t write an article on<lb/>
+            Negroes," she told this reporter.<lb/>
+            "Anything you write, white people<lb/>
+            will think is interesting... but to<lb/>
+            colored people it won’t mean a<lb/>
+            thing."<lb/></p>
+
+            <p>Only colored people know and<lb/>
+            understand colored people, she<lb/>
+            maintains. This seems to be<lb/>
+            true, for the white student cannot<lb/>
+            find a typical Negro student from<lb/>
+            which to generalize about the<lb/>
+            200-400 colored undergraduates<lb/>
+            on campus.<lb/></p>
+
+            <p>The Negroes compose a <choice><orig>hete-<lb/>
+            rogeneous</orig><reg>heterogenous</reg></choice><lb/>population, demarcat-<lb/>
+            ed from the rest of the student<lb/>
+            body by skin color and/or a few<lb/>
+            tables in the Main Dining Hall<lb/>
+            or the Student Union. The Negro<lb/>
+            students’ views are varied, their<lb/>
+            experiences largely dissimilar,<lb/>
+            and even their skin tones are of<lb/>
+            different shades.<lb/></p>
+
+            <p>This is an article about the<lb/>
+            Negro students in the Union. They<lb/>
+            comprise an amorphous group of<lb/>
+            between 40-50 students who <choice><orig>gath-<lb/>
+            er</orig><reg>gather</reg></choice>in the cafeteria every after<lb/>
+            noon to eat, “shoot the breeze”<lb/>
+            and play pinochle.<lb/></p>
+
+            <p>Who are they? How do they<lb/>
+            mingle with white students? These<lb/>
+            are glimpses of the experiences<lb/>
+            they relate as they sip Cokes<lb/>
+            and munch on pizza between<lb/>
+            classes.<lb/></p>
+
+            <p>Social events is a major topic<lb/>
+            these students discuss when<lb/>
+            viewing their interaction with<lb/>
+            whites.<lb/></p>
+
+            <p>“At dorm deserts, I don’t really<lb/>
+            fit in,” said Gary, a cool College<lb/>
+            Joe who talks fast and smiles a<lb/>
+            lot. “They don’t play our kind of<lb/>
+            music.”<lb/></p>
+
+            <p>“At one desert,” he continued<lb/>
+            wryly, “I asked a white girl to<lb/>
+            dance. She refused me, so I sat<lb/>
+            down.”<lb/></p>
+
+            <p>Later, he noticed the girl danc-<lb/>
+            ing with white boys. He went over<lb/>
+            to her and asked her for the next<lb/>
+            record."<lb/></p>
+
+            <p>“Her girl friends were pushing<lb/>
+            her to dance with me,” he re-<lb/>
+            called. “So she did. We danced,<lb/>
+            and in the middle of the record<lb/>
+            she burst into tears and ran to<lb/>
+            her housemother.”<lb/></p>
+
+            <p>Deducing a moral from his<lb/>
+            story, Gary declared, “I don't<lb/>
+            care if they don’t want to dance<lb/>
+            with me, I just wish that before<lb/>
+            each desert they’d make a list of<lb/>
+            girls who won’t dance with me so<lb/>
+            I'll know."<lb/></p>
+
+            <p>On the whole, Gary encounters<lb/>
+            little "open" prejudice in his<lb/>
+            dormitory. However, Donna, a<lb/>
+            calm, attractive Negro student,<lb/>
+            prefers to live at home and com-<lb/>
+            mute rather than to room in a<lb/>
+            dormitory.<lb/></p>
+
+            <p>At summer orientation last<lb/>
+            July, she explained, she was the<lb/>
+            only Negro in her tour group.<lb/>
+            "They were surprised, I guess,<lb/>
+            to see a Negro. They said<lb/>
+            nothing against me, but they<lb/>
+            stared as if they didn’t expect<lb/></p>
+
+            </div>
+            <pb></pb>
+          <div>
+            <head>
+              <title>Negroes note white preconceptions</title>
+            </head>
+          </div>
+
+          <div>
+
+            <p>to see a Negro in their group."<lb/></p>
+
+            <p>“I used to live in Philadelphia,"<lb/>
+            Donna continued. "I was in the<lb/>
+            minority... so I got used to the<lb/>
+            feeling of being the only one there<lb/>
+            and people staring."<lb/></p>
+
+            <p>But this feeling is "kind of<lb/>
+            lonely," and that was why Donna<lb/>
+            “declined living on campus--be<lb/>
+            cause of summer orientation."<lb/></p>
+
+            <p>"I haven’t had any problems<lb/>
+            with any students in class," she<lb/>
+            continued. “They even come to<lb/>
+            me and ask me for help. They<lb/>
+            don’t judge you by your color, but<lb/>
+            by what you can do." But Donna<lb/>
+            still prefers to live at home,<lb/>
+            rather than on campus.<lb/></p>
+
+            <p>Another commuter, Alphonso,<lb/>
+            was part of a nucleus of Negro<lb/>
+            students who tried to establish<lb/>
+            a “bi-racial" fraternity on cam-<lb/>
+            pus last spring. Plans were made<lb/>
+            to establish Omega Psi Phi, but<lb/>
+            due to a start late in the semes-<lb/>
+            ter, the group was unable to<lb/>
+            start a chapter.<lb/></p>
+
+          </div>
+        <div>
+        <p>
+          <emph>Meeting ‘awkward’</emph>
+        </p>
+
+            <p>“Many people who wanted to<lb/>
+            become charter members com-<lb/>
+            muted from Baltimore," Alphonso<lb/>
+            explained. It was “awkward for<lb/>
+            them to come back for a meeting<lb/>
+            at night." Also, a set sum of<lb/>
+            money had to be laid down within<lb/>
+            a one-week time limit. Gary<lb/>
+            feels that this payment deadline<lb/>
+            prevented the group from gen-<lb/>
+            erating more immediate interest.<lb/> </p>
+
+            <p>Dwayne, a commuter who<lb/>
+            spends part of each afternoon in<lb/>
+            the Union improving his game of<lb/>
+            pinochle, explained why he would<lb/>
+            like to establish a fraternity.<lb/></p>
+
+            <p>“Everybody likes to have some-<lb/>
+            thing when they graduate, a group<lb/>
+            to call back together, a group to<lb/>
+            talk up old times. It’s good to<lb/>
+            be able to come back and look<lb/>
+            at the work you have done."<lb/></p>
+
+            <p>He and Alphonso also note<lb/>
+            that a fraternity would give the<lb/>
+            Negro students a chance to par-<lb/>
+            ticipate in Homecoming, to com-<lb/>
+            pete in athletic events, and to<lb/>
+            gain a voice in campus affairs.<lb/></p>
+
+            <p>Other Negroes disagree. They<lb/>
+            see little unity in a “bi-racial"<lb/>
+            fraternity, they anticipate that<lb/>
+            Negroes would remain together,<lb/>
+            and this would not alter signifi-<lb/>
+            cantly their present rate of in-<lb/>
+            teraction with whites.<lb/></p>
+
+            <p>Another student added that<lb/>
+            although Negroes have been<lb/>
+            “shunner" from “going into fra-<lb/>
+            ternities, “I would not join a<lb/>
+            fraternity simply (only) because<lb/>
+            it was black."<lb/></p>
+
+            <p>None of the 24 social frater<lb/>
+            nities on campus are racially<lb/>
+            integrated with whites and Ne-<lb/>
+            groes. The fraternities have<lb/>
+            no discriminatory clauses in<lb/>
+            their charters, but attitudinal<lb/>
+            barriers and apprehensive feel-<lb/>
+            ings seem to bar a Negro from<lb/>
+            pledging a white house.<lb/></p>
+
+            <p>These feelings are not fostered<lb/>
+            by white students alone. Negroes<lb/>
+            find they are reluctant to rush<lb/>
+            a white fraternity. They doubt<lb/>
+            that they would be pledged, and<lb/>
+            if they were, they wonder if they<lb/>
+            could be accepted as a brother.<lb/></p>
+
+            <p>Also, at parties, could the Ne-<lb/>
+            groes bring white dates without<lb/>
+            offending or shocking the alumni<lb/>
+            and brothers?<lb/></p>
+          </div>
+
+          <div>
+            <p>
+            <emph>Interdating</emph>
+          </p>
+
+            <p>These Negroes do interdate.<lb/>
+            They state that white girls are<lb/>
+            generally more friendly toward<lb/>
+            their race than white boys.<lb/></p>
+
+            <p>White people, they note, seem<lb/>
+            very concerned with pressures<lb/>
+            exerted by their friends. Negro<lb/>
+            boys dating white coeds have been<lb/>
+            told that when their dates return<lb/>
+            to the dormitory, every one in<lb/>
+            the hall flocks around them to<lb/>
+            ask questions.<lb/></p>
+
+            <p>If a Negro mixes socially with<lb/>
+            whites, however, peer-group re-<lb/>
+            action is minimal. Explained<lb/>
+            Gary, “If you’re in the group,<lb/>
+            you’re in... We don’t care...<lb/>
+            You do what you want to do."<lb/></p>
+
+            <p>White girls, they note, expect<lb/>
+            Negro boys to be fast on a date.<lb/>
+            They are surprised when they<lb/>
+            find Negro behavior to the con-<lb/>
+            trary. According to several<lb/>
+            Negro boys, colored girls are<lb/>
+            “a lot more shy than white girls."<lb/></p>
+
+            <p>“They don’t do things in pub<lb/>
+            lic," explained one boy. “On the<lb/>
+            Mall, I’ve seen things Negro girls<lb/>
+            won’t do."<lb/></p>
+
+          </div>
+          <div>
+            <p>
+            <emph>Sorority obstacle</emph>
+          </p>
+
+            <p>One thing Negro girls can’t do,<lb/>
+            it seems, is join a sorority.<lb/>
+            Last year, two Negro girls went<lb/>
+            through fall sorority rush. One<lb/>
+            girl received no invitations to<lb/>
+            the second round of parties, but<lb/>
+            the other girl was invited back<lb/>
+            to several houses. However,<lb/>
+            after this second group of par<lb/>
+            ties, that girl was dropped too.<lb/></p>
+
+            <p>This year another girl, Sharon,<lb/>
+            signed up for rush. Cute, petite<lb/>
+            and well-dressed, Sharon said<lb/>
+            she went through rush because<lb/>
+            she had taken it for granted that<lb/>
+            “you go to college, and you join<lb/>
+            a sorority."<lb/></p>
+
+            <p>“I was disappointed not to see<lb/>
+            some Negroes in the sororities,"<lb/>
+            she said. “Out of 18 sororities,<lb/>
+            you would expect to see one. I<lb/>
+            was shocked. Especially on a<lb/>
+            campus this size. Rush was sup<lb/>
+            posed to be so open and all."<lb/></p>
+
+            <p>During rush, she reports,<lb/>
+            “everybody was nice." After open<lb/>
+            house she was invited back to ten<lb/>
+            houses. But for “set of four"<lb/>
+            parties, she received no return<lb/>
+            bids.<lb/></p>
+
+            <p>Negroes may join the service<lb/>
+            fraternity and sorority on cam-<lb/>
+            pus. Of the students interviewed,<lb/>
+            one was a member of Gamma Sig-<lb/>
+            ma Sigma sorority. Others were<lb/>
+            members of the marching band,<lb/>
+            P.E Majors Club, the football<lb/>
+            team, and the chess club.<lb/></p>
+
+            <p>A perusal through Terrapin<lb/>
+            yearbooks shows that other<lb/>
+            colored students are in Univer-<lb/>
+            sity Theater productions, publi-<lb/>
+            cations staffs, ROTC groups, the<lb/>
+            Nursing Club, the M Club and the<lb/>
+            Pharmacy Club.<lb/></p>
+
+            <p>But even in these groups, there<lb/>
+            are only one or two Negro mem-<lb/>
+            bers. The low proportion of<lb/>
+            Negro students on campus is not<lb/>
+            the lone factor preventing large<lb/>
+            Negro participation in campus<lb/>
+            activities.<lb/></p>
+
+            <p>The Negroes in the union<lb/>
+            "group" feel that a veil of ap-<lb/>
+            prehension limits Negro-white<lb/>
+            interaction outside of class. This<lb/>
+            cloak of apprehension is the last<lb/>
+            barrier for a Negro student to<lb/>
+            overcome before he will vie for<lb/>
+            acceptance in an all-white group.<lb/>
+            This cloak of apprehension is<lb/>
+            the last barrier that a white<lb/>
+            person must overcome before he<lb/>
+            will forget color, disregard nega-<lb/>
+            tive peer-group reactions and<lb/>
+            boldly sit down at a Negro table<lb/>
+            in the Union.<lb/></p>
+
+            <p>Part of Friday’s installment<lb/>
+            was incorrectly organized to<lb/>
+            due a mechanical mistake.<lb/>
+            The Diamondback regrets the<lb/>
+            error.<lb/></p>
+         </div>
+      </body>
+  </text>
+</TEI>
